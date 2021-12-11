@@ -112,7 +112,7 @@ async def help(bot: DonLee_Robot_V2, msg: Import.Msg):
 @DonLee_Robot_V2.on_message(filters.command(["about"]) & filters.private, group=1)
 async def about(bot: DonLee_Robot_V2, msg: Import.Msg):
         button = [[
-          Import.Button("👨‍💻𝖣𝖾𝗉𝗅𝗈𝗒", url='https://www.youtube.com/watch?v=NrbMc93aCzA'),
+          Import.Button("👨‍💻𝖣𝖾𝗉𝗅𝗈𝗒", url='https://t.me/KOT_SOURCE_CODE'),
           Import.Button("𝖲𝗈𝗎𝗋𝖼𝖾📦", callback_data="source")
           ],[
           Import.Button("⚠️𝖧𝖾𝗅𝗉", callback_data="help"),
@@ -132,14 +132,14 @@ async def about(bot: DonLee_Robot_V2, msg: Import.Msg):
 @DonLee_Robot_V2.on_message(filters.command(["sub", "subscribe"]) & filters.private, group=1)
 async def sub(bot: DonLee_Robot_V2, msg: Import.Msg):
         button = [[     
-          Import.Button("🖥️𝖵𝗂𝖽𝖾𝗈", url="https://www.youtube.com/watch?v=NrbMc93aCzA"),
-          Import.Button("𝖲𝗎𝗉𝗉𝗈𝗋𝗍🤝", url="https://www.youtube.com/watch?v=NrbMc93aCzA")
+          Import.Button("🖥️KOT LINKS", url="https://t.me/KOT_LINKS_TEAM"),
+          Import.Button("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 YOUTUBE🤝", url="https://https://youtube.com/channel/UCWBJ4ZVNc4kWoZKp5Y-byHA")
           ],[
-          Import.Button("📢𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://www.youtube.com/watch?v=NrbMc93aCzA"),
-          Import.Button("𝖸𝗈𝗎𝖳𝗎𝖻𝖾💞", url="https://www.youtube.com/watch?v=NrbMc93aCzA")
+          Import.Button("📢𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/KOT_BOTS"),
+          Import.Button("𝖸𝗈𝗎𝖳𝗎𝖻𝖾💞", url="https://youtube.com/channel/UCWBJ4ZVNc4kWoZKp5Y-byHA")
           ],[
-          Import.Button("📦𝖦𝗂𝗍𝗁𝗎𝖻", url="http://github.com/PR0FESS0R_99"),
-          Import.Button("𝖨𝗇𝗌𝗍𝖺😁", url="https://www.instagram.com/mrk_yt_")
+          Import.Button("📦TELEGRAM", url="http://t.me/KOT_FREE_DE_LA_HOYA_OFF"),
+          Import.Button("SUPPORT😁", url="https://t.me/KOT_REPORS")
           ],[
           Import.Button("𝖢𝗅𝗈𝗌𝖾🗑️", callback_data="close")
           ]]                     
@@ -155,7 +155,7 @@ async def sub(bot: DonLee_Robot_V2, msg: Import.Msg):
 @DonLee_Robot_V2.on_message(filters.private & filters.command("report"))
 async def admin(bot, msg):
     button = [[  
-       Import.Button("𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾➡️", url="t.me/PR0FESS0R_99")
+       Import.Button("𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾➡️", url="t.me/KOT_FREE_DE_LA_HOYA_OFF")
        ]]
     await msg.reply_text(
         text="𝖢𝗈𝗇𝗍𝖾𝖼𝗍 𝖡𝗎𝗍𝗍𝗈𝗇 𝖡𝖾𝗅𝗅𝗈𝗐",
