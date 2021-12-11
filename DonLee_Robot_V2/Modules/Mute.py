@@ -82,13 +82,13 @@ async def temp_mute_user(_, message):
     else:
         if str(user_id).lower().startswith("@"):
             await message.reply_text(
-                "കുറച്ചുനേരം മിണ്ടാതിരിക്ക്! 😠"
+                "Be quiet for a while! 😠"
                 f"{user_first_name}"
                 f" muted for {message.command[1]}!"
             )
         else:
             await message.reply_text(
-                "കുറച്ചുനേരം മിണ്ടാതിരിക്ക്! 😠"
+                "Be quiet for a while! 😠"
                 f"<a href='tg://user?id={user_id}'>"
                 "ലവന്റെ"
                 "</a>"
